@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="Container">
       <Header title="Task Tracker"/>
-      <Tasks tasks={tasks} onDelete={deleteTask}/>
+      <Tasks tasks={tasks} OnDelete={deleteTask}/>
 
     </div>
   );
